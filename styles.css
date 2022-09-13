@@ -1,0 +1,44 @@
+html {
+    font-size: 10px;
+    background: dodgerblue;
+    background-size: cover;
+}
+
+body,
+html {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.keys {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.key {
+    border: 0.4rem solid black;
+    border-radius: 0.5rem;
+    margin: 1rem;
+    padding: 1rem 0.5rem;
+    text-align: center;
+    font-size: 1.5rem;
+    background: rgba(0, 0, 0, 0.4);
+    width: 10rem;
+	color: aliceblue;
+}
+
+kbd {
+    display: block;
+    font-size: 4rem;
+}
+
+.sound {
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    color: tomato;
+}
